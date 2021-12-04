@@ -1,0 +1,58 @@
+.work-section .subscribe-box{
+    width: 1280px;
+    position: relative;
+    background: #2C343E;
+    border-radius: 10px;    
+    color: #FEFCF7;
+    margin-bottom: 160px;
+}
+
+.subscribe-line{
+    position: absolute;
+    opacity: 0.4;
+}
+
+.about-circle-st{
+    position: absolute;
+    display: inline-block;
+    top: 98px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid #0E8784;
+    margin-left: 92px;
+    margin-top: -18px;
+}
+
+.about-circle-nd{
+    position: absolute;
+    display: inline-block;
+    top: 98px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid #0E8784;
+    margin-left: 440px;
+    margin-top: -18px;
+}
+
+.about-circle-th{
+    position: absolute;
+    display: inline-block;
+    width: 30px;
+    top: 98px;
+    height: 30px;
+    border-radius: 50%;
+    border: 2px solid #0E8784;
+    margin-left: 825px;
+    margin-top: -18px;
+}
+
+.work__box__subs{
+    padding-top: 200px;
+    padding-bottom: 107px;
+}
+
+.work__title__subs{
+    color: #FEFCF7;
+}

@@ -1,0 +1,80 @@
+.collection{
+    background-image: url(../image/png/our-collection.png);
+    background-size: 1110px 190px;
+    background-position: center top 0;
+    background-repeat: no-repeat;
+    padding-top: 120px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 170px;
+    padding-left: 80px;
+    padding-right: 80px;
+
+    &__box{
+        width: 255px;
+    }
+
+    &__box + &__box{
+        margin-left: 30px;
+    }
+
+    &__title{
+        padding-top: 40px;
+        font-family: 'Fraunces','Arial',sans-serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        color:#333D4B;
+    }
+}
+
+.all-textsll{
+    line-height: 26px;
+    text-align: center;
+    color: #333D4B;
+
+}
+
+.espresso::before{
+    content: "";
+    margin-left: 20px;
+    width: 255px;
+    height: 193px;
+    display: inline-block;
+    background-image: url(../image/png/kopi1.png);
+    background-position: center top 0;
+}
+
+.planalto::before{
+    content: "";
+    width: 255px;
+    height: 193px;
+    display: inline-block;
+    background-image: url(../image/png/kopi2.png);
+    background-position: center top 0; 
+}
+
+.piccollo::before{
+    content: "";
+    width: 255px;
+    height: 193px;
+    display: inline-block;
+    background-image: url(../image/png/kopi3.png);
+    background-position: center top 0;  
+}
+
+
+.danche{
+    margin-right: 0;
+    padding-right: 20px;
+}
+
+.danche::before{
+    content: "";
+    width: 255px;
+    height: 193px;
+    display: inline-block;
+    background-image: url(../image/png/kopi4.png);
+    background-position: center top 0;  
+}

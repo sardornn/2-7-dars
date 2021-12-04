@@ -1,0 +1,30 @@
+.commitment-section .container{
+    background-image: url(../image/jpg/about-commit.jpg);
+    background-repeat: no-repeat;
+    background-position: left 105px center;
+    background-size: 445px 520px;
+    margin-top: -50px;
+}
+
+.commit{
+    padding-left: 660px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    text-align: left;
+    padding-right: 90px;
+}
+
+.commitment__title{
+    font-family: 'Fraunces','Arial',sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: #333D4B;
+}
+
+.commitment__paragraph{
+    line-height: 26px;  
+    color: #333D4B;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}

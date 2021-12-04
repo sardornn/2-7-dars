@@ -1,0 +1,53 @@
+.simple-section .container{
+    margin-top: 100px;
+    width: 1280px;
+    background-image: url(../image/jpg/Bitmap.jpg);
+    background-size: 1280px 600px;
+    background-repeat: no-repeat;
+    background-position:left 10px center;
+    margin-bottom: 100px;
+}
+
+.coffe__hero{
+    width: 495px;
+    color: #ffffff;
+    text-align: left;
+    margin: 0;
+    padding-left: 40px;
+    padding-top: 100px;
+    padding-bottom: 116px;
+}
+
+.coffe__hero__title{
+    width: 495px;
+    color: #ffffff;
+    font-family: 'Fraunces','Arial',sans-serif;    
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    margin: 0;
+    margin-bottom: 32px;
+}
+  
+.coffe__hero__text{
+    margin: 0;
+    margin-bottom: 56px;
+    line-height: 26px;
+    color: #FEFCF7;
+    opacity: 0.8;
+}
+
+.button{
+    padding: 15px 31px;     
+    background: #0E8784;
+    border-radius: 6px;
+    color: #ffffff;
+    font-family: 'Fraunces','Arial',sans-serif;    
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 25px;
+
+    &:active{
+    background-color: #66D2CF;
+    }
+}

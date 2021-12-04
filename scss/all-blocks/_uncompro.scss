@@ -1,0 +1,50 @@
+.uncompro-section .container{
+    position: relative;
+    width: 1280px;
+    background-color: hsl(213, 17%, 21%);
+    border-radius: 10px;
+    margin-bottom: 168px;
+}
+
+
+.uncompro{
+    width: 614px;
+    padding-top: 100px;
+    padding-left: 85px;
+    padding-bottom: 176px;
+    text-align: left;
+    color: #FEFCF7;
+}
+
+.uncompro-image{
+    position: absolute;
+    top: -90px;
+    right: 445px;
+
+    &::before{
+        position: absolute;
+        content: "";
+        width: 445px;
+        height: 474px;
+        background-image: url(../image/jpg/about-auality.jpg);
+        background-repeat: no-repeat;
+        background-position: right 85px top 00px;
+        background-size: 445px 474px;
+    }
+}
+
+.uncompro__title{
+    width: 540px;
+    margin: 0;
+    margin-bottom: 32px;
+    font-family: 'Fraunces','Arail',sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+}
+
+.uncompro__paragraph{
+    line-height: 26px;
+    opacity: 0.8;
+    margin: 0;
+}

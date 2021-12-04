@@ -1,0 +1,109 @@
+.work-section .container{
+    text-align: left;
+    position: relative;
+    margin-bottom: 200px;
+}
+
+.work__item{
+    margin-left: 90px;
+    font-family: 'Fraunces','Arial',sans-serif;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+}
+
+.number-line{
+    margin-top: 95px;
+    margin-left: 110px;
+    display: block;
+    width: 730px;
+    height: 2px;
+    background-color: #FDD6BA;
+}
+
+.circle-st{
+    content: "";
+    position: absolute;
+    display: block;
+    top: 112px;
+    left: 116px;
+    width: 31px;
+    height: 31px;
+    background-image: url(../image/svg/Oval.svg);
+    background-size: 31px 31px; 
+    background-repeat: no-repeat;
+}
+
+
+.circle-nd::before{
+    content: "";
+    position: absolute;
+    display: inline-block;
+    top: 112px;
+    left: 480px;
+    width: 31px;
+    height: 31px;
+    background-image: url(../image/svg/Oval.svg);
+    background-size: 31px 31px; 
+    background-repeat: no-repeat;
+}
+
+
+.circle-th::before{
+    content: "";
+    position: absolute;
+    display: inline-block;
+    top: 112px;
+    left: 840px;
+    width: 31px;
+    height: 31px;
+    background-image: url(../image/svg/Oval.svg);
+    background-size: 31px 31px; 
+    background-repeat: no-repeat;
+}
+
+
+.work__box{
+    display: flex;
+    justify-content: center;
+    padding-top: 80px;
+    margin-bottom: 60px;
+}
+
+.work__list{
+    text-align: left;
+    margin-right: 80px;
+}
+
+.work-number{
+    font-family: 'Fraunces','Arial',sans-serif;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color:  #FDD6BA;
+}
+
+.work__title{
+    width: 200px;
+    font-family: 'Fraunces','Arial',sans-serif;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #333D4B;
+    margin: 0;
+    margin-top: 38px;
+    margin-bottom: 42px;
+}
+
+.work__text{
+    line-height: 26px;
+    margin: 0;
+    width: 285px;
+}
+
+.coffe__link__main{
+    margin-left: 90px;
+}
+
+
